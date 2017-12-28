@@ -9,7 +9,8 @@
         ]
       },
       "useBuiltIns": true
-    }]
+    }],
+    "stage-0"
   ],
   "plugins": [
     "transform-runtime"

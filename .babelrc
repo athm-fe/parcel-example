@@ -7,5 +7,15 @@
   ],
   "plugins": [
     "transform-runtime"
-  ]
+  ],
+  "env": {
+    "production": {
+      "presets": [
+        ["minify", {
+          "removeConsole": true,
+          "removeDebugger": true
+        }]
+      ]
+    }
+  }
 }

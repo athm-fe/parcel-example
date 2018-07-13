@@ -1,8 +1,23 @@
 @charset "utf-8";
-
 #root {
+  display: flex;
   width: 400px;
   height: 200px;
   margin: 100px auto;
   background: url('../img/background.png') no-repeat;
+}
+
+.phone {
+  &_title {
+    width: 500px;
+    @media (max-width: 500px) {
+      width: auto;
+    }
+    body.is_dark & {
+      color: white;
+    }
+  }
+  img {
+    display: block;
+  }
 }

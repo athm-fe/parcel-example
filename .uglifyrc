@@ -1,0 +1,11 @@
+{
+  safari10: true,
+  compress: {
+    drop_console: true
+  },
+  output: {
+    beautify: false,
+    ascii_only: true,
+    quote_style: 1
+  }
+}
